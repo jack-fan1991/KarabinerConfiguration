@@ -92,6 +92,67 @@
           "type": "basic"
         }
       ]
+    },
+    {
+      "description": "[按住]右Alt設定P;L\"為上下左右",
+      "manipulators": [
+        {
+          "from": {
+            "key_code": "p",
+            "modifiers": {
+              "optional": ["right_opt;'ion"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "up_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "l",
+            "modifiers": {
+              "optional": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "left_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "semicolon",
+            "modifiers": {
+              "optional": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "down_arrow"
+            }
+          ],
+          "type": "basic"
+        },
+        {
+          "from": {
+            "key_code": "quote",
+            "modifiers": {
+              "optional": ["right_option"]
+            }
+          },
+          "to": [
+            {
+              "key_code": "rught_arrow"
+            }
+          ],
+          "type": "basic"
+        }
+      ]
     }
   ]
 }
