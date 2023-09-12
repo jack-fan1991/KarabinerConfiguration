@@ -7,3 +7,4 @@ karabiner://karabiner/assets/complex_modifications/import?url=https://jack-fan19
 
 ```
 
+add
