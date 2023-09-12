@@ -93,7 +93,7 @@
         {
           "key_code": "period",
           "modifiers": [
-            "left_option"
+            "left_command"
           ]
         }
       ],
